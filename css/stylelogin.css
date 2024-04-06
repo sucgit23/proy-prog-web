@@ -10,7 +10,7 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: url("/img/backgroundlogin.png")
+    background: url("/img/img-login/backgroundlogin.png")
     no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,7 +23,7 @@ section{
     background: transparent;
     border: none;
     border-radius: 20px;
-    backdrop-filter: blur(15px) brightness(80%);
+    backdrop-filter: blur(2.5px) brightness(80%);
     display: flex;
     justify-content: center;
     align-items: center;

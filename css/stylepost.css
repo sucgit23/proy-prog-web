@@ -1,0 +1,107 @@
+body {
+    background-color: black !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* width: 100%;
+    position: relative; */
+}
+
+/* header, footer {
+    background-color: black;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+} */
+
+main {
+    background-color: black;
+    padding: 20px;
+}
+
+.publicar {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.publicar i{
+    color:aliceblue;
+}
+
+.fa-users:before{content: "\f0c0"}
+
+.space-i::before{margin-right: 10px; margin-left: 10px}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+input[type="file"] {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    display: none;
+    /* color: transparent; */
+}
+
+textarea {
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 900px;
+    height: 100px;
+    text-align: left;
+
+}
+
+button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    align-self: center;
+
+}
+
+/* button:hover {
+    background-color: #555;
+} */
+
+#dropArea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed rgb(125, 126, 128);
+    border-radius: 10px;
+    padding: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#imagePreview{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#imagePreview{
+    max-width: 50%;
+    max-height: 50px;
+}
+
+.Arrastra{
+    color: aliceblue;
+}
+
+.espaciado{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+

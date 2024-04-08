@@ -28,9 +28,7 @@ main {
     color:aliceblue;
 }
 
-.fa-users:before{content: "\f0c0"}
 
-.space-i::before{margin-right: 10px; margin-left: 10px}
 
 form {
     display: flex;
@@ -48,19 +46,26 @@ input[type="file"] {
     /* color: transparent; */
 }
 
-textarea {
+/* textarea {
 
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 900px;
-    height: 100px;
-    text-align: left;
+    width: 1000px ;
+    height: 100px ;
+    text-align: left; 
+}*/
 
+
+.comentariobox{
+    width: 150px;
+    height: 50px;
+    padding: 10px;;
 }
 
+
 button {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 150px;
     height: 50px;
     padding: 10px;
@@ -101,7 +106,6 @@ button {
 }
 
 .espaciado{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 10px ;
+    margin-top: 10px ;
 }
-

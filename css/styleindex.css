@@ -22,3 +22,44 @@
     width: 100%;
     border-radius: 10px;
 }
+
+.Barra-busqueda{
+    display: flex;
+    justify-content: center;
+    background-color: black !important;
+}
+
+body{
+    background-color: black !important;
+}
+
+.form-busqueda{
+    display: flex !important;
+}
+
+.boton-busqueda{
+    display: flex !important;
+
+}
+
+/*----btn------*/
+.buscador{
+    padding: 0 0 3% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-buscador{
+    font-weight: 500 !important;
+    color: aliceblue !important;
+    border-color: aliceblue !important;
+}
+
+.btn-buscador:hover{
+    font-weight: 500 !important;
+    background-color: aliceblue !important;
+    color:rgb(0, 0, 0) !important;
+    border-color: aliceblue !important;
+}
+
+

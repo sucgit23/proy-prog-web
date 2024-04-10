@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     
-    <style>
-    </style>
 
 </head>
 
@@ -33,9 +31,7 @@
                     <li class="nav-item">
                         <a href="./perfil.html" class="nav-link">Volver al perfil</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a href="#" class="nav-link">Volver al perfil</a>
-                    </li> -->
+
                     <li class="nav-item">
                         <a href="#" class="nav-link">Salir</a>
                     </li>                  
@@ -48,39 +44,34 @@
 
 <br>
 </br>
-<main>
+
     <div>
         <div class="publicar">
             <h2> <i class="fa-solid fa-camera" style="color: aliceblue; margin-right: 25px"></i>Publicar imagen</h2> 
         </div>
     </div>
 
-
-        <br>
-        </br>
     <div>
         <form id="formPublicar" enctype="multipart/form-data">
             <div id="dropArea" class="espaciado">
                 <input type="file" id="fileInput" accept="image/*">
                 <p class="Arrastra">Arrastra y suelta una imagen aquí o haz clic para selecionar una.</p>
             </div>
-
+            
             <div id="imagePreview" class="espaciado"></div>        
-            <div class="form-floating">
-                <textarea class="form-control comentariobox" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; width: 800px"></textarea>
-                <label for="floatingTextarea2">Comentarios</label>
-            </div>
-            </div>
-            <br>
-            </br>
+                <div class="form-floating comentariobox">
+                    <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                    <label for="floatingTextarea2">Comentarios</label>
+                </div>
+    </div>
             <div class="boton-publicar" style="text-align: center;">
                 <button type="submit" class="espaciado">Compartir</button>
             </div>
         </form>
-    </div>
-</main>
 
 
-<script src="https://kit.fontawesome.com/877d2cecdc.js" crossorigin="anonymous"></script>
-</body>
+
+
+        <script src="https://kit.fontawesome.com/877d2cecdc.js" crossorigin="anonymous"></script>
+    </body>
 </html>

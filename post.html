@@ -31,22 +31,18 @@
             <div class="collapse navbar-collapse" id="navbarS">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Volver al perfil</a>
+                        <a href="./perfil.html" class="nav-link">Volver al perfil</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a href="#" class="nav-link">Volver al perfil</a>
                     </li> -->
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Sobre nosotros</a>
+                        <a href="#" class="nav-link">Salir</a>
                     </li>                  
                 </ul>
             </div>            
         </div>
     </nav>
-
-    <!-- <header>
-        <h1>Dobleexposicion</h1>
-    </header> -->
 <br>
 </br>
 
@@ -65,20 +61,21 @@
     <div>
         <form id="formPublicar" enctype="multipart/form-data">
             <div id="dropArea" class="espaciado">
-                <!-- <label for="imagen">Seleccionar imagen:</label> -->
                 <input type="file" id="fileInput" accept="image/*">
                 <p class="Arrastra">Arrastra y suelta una imagen aquí o haz clic para selecionar una.</p>
             </div>
 
             <div id="imagePreview" class="espaciado"></div>        
             <div class="form-floating">
-                <textarea class="form-control comentariobox" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; width: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
+                <textarea class="form-control comentariobox" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px; width: 800px"></textarea>
+                <label for="floatingTextarea2">Comentarios</label>
             </div>
             </div>
             <br>
             </br>
-            <button type="submit" class="espaciado">Compartir</button>
+            <div class="boton-publicar" style="text-align: center;">
+                <button type="submit" class="espaciado">Compartir</button>
+            </div>
         </form>
     </div>
 </main>

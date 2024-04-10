@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Ingresar</title>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -12,17 +12,25 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <link rel="stylesheet" href="/css/stylelogin.css" />
+    <link rel="stylesheet" href="./css/stylelogin.css" />
+    <style>
+    
+        body{
+            background-image: url("img/img-login/backgroundlogin.png") !important;
+        }
+    </style>
   </head>
 
   <body>
     <body>
+
+
       <section>
         <div class="form-box">
           <div class="form-value">
             <form>
                 <div>
-                    <img src="img/Doble exposicion icono blanco.png">
+                    <a href="./index.html" ><img src="./img/Dobleexposicioniconoblanco.png"></a>
                 </div>
               <h2>Ingresar</h2>
               <div class="inputbox">
@@ -40,7 +48,7 @@
                 <label><input type="checkbox" />Recuerdame</label>
                 <a href="#">Olvidé la contraseña</a>
               </div>
-              <button>Ingresar</button>
+              <button class="btn-modal">Ingresar</button>
               <div class="register">
                 <p>¿No tienes cuenta? <a href="#">Registrate ahora</a></p>
               </div>

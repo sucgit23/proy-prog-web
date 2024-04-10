@@ -10,8 +10,8 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: url("/img/img-login/backgroundlogin.png")
-    no-repeat;
+    background-image: url(".../img/img-login/backgroundlogin.png")
+    no-repeat !important;
     background-position: center;
     background-size: cover;
 }

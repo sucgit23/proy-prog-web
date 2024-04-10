@@ -121,3 +121,29 @@ figure{
         margin-left: 0;
     }
 }
+
+.btn-contactame{
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+    border-color: black !important;
+
+}
+
+.btn-contactame:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 0) !important;
+
+}
+
+.modal-enviar{
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+    border-color: black !important;
+
+}
+
+.modal-enviar:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 0) !important;
+
+}

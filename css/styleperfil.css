@@ -1,0 +1,123 @@
+.items{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+body{
+    background-color: black;
+    min-height: 280vh;
+}
+
+
+
+.profile-avatar h1 {
+    margin-top: 10px;
+    color: rgb(247, 242, 242);
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.card-img-top{
+    max-width: 500px;
+    height: 300px;
+    align-self: center;
+    border-radius: 15px
+}
+
+.card{
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px
+}
+
+.alt{
+    color: rgb(16, 71, 119);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+figure{
+    display: flex;
+}
+
+.banner{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.bannercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 0;
+}
+
+.bannerbg{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 3rem;
+
+}
+
+.bannertitle{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+
+}
+
+.bannerimage{
+    width: 250px;
+
+}
+
+.button{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: aliceblue;
+    border-color: black;
+    padding: 10px 15px;
+    display: flex;
+    max-width: fit-content;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; 
+    margin: 0 auto;
+}
+
+
+.button:hover,.button:focus{
+    background-color: rgb(146, 145, 145);
+}
+
+@media (min-width: 768px){
+    .banner{
+        text-align: left;
+
+    }
+    
+    .bannercontainer{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 30px;
+
+    }
+    .button{
+        margin-left: 0;
+    }
+}

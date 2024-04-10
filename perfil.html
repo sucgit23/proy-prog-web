@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de Usuario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleperfil.css">
+    <link rel="stylesheet" href="./css/styleperfil.css">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">   
+
 </head>
 <body>
     <header>
@@ -28,10 +30,10 @@
                             <a href="#" class="nav-link">Publicar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Salir</a>
+                            <a href="#" class="nav-link">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Sobre nosotros</a>
+                            <a href="#" class="nav-link">Salir</a>
                         </li>                  
                     </ul>
                 </div>            
@@ -39,58 +41,21 @@
         </nav>
     </header>
     <main>
+        <br>
+        <br>
+        <br>
         <section class="container">
-            <h2 class="items">Última fotografía subida</h2>
-            <div class="card">
-                <img src="ultima_foto.jpg" class="card-img-top" alt="Última fotografía subida">
-                <div class="card-body">
-                    <h5 class="card-title">Título de la última fotografía</h5>
-                    <p class="card-text">Descripción de la última fotografía.</p>
-                </div>
-            </div>
-            <h2 class="items">Top 3 de mejores fotografías</h2>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="foto1.jpg" class="card-img-top" alt="Mejor fotografía 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Título de la mejor fotografía 1</h5>
-                            <p class="card-text">Descripción de la mejor fotografía 1.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="foto2.jpg" class="card-img-top" alt="Mejor fotografía 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Título de la mejor fotografía 2</h5>
-                            <p class="card-text">Descripción de la mejor fotografía 2.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="foto3.jpg" class="card-img-top" alt="Mejor fotografía 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Título de la mejor fotografía 3</h5>
-                            <p class="card-text">Descripción de la mejor fotografía 3.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container">
-            <h2 class="items">Galería de Fotografías</h2>
+            <h2 class="items">Album</h2>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="foto1.jpg" class="d-block w-100" alt="Fotografía 1">
+                        <img src="./img/imag-perfil/galeria1.jpg" class="d-block w-100" alt="DuocUC Sede San Bernardo">
                     </div>
                     <div class="carousel-item">
-                        <img src="foto2.jpg" class="d-block w-100" alt="Fotografía 2">
+                        <img src="./img/imag-perfil/galeria2.jpg" class="d-block w-100" alt="DuocUC Intercambio, Paris / Francia">
                     </div>
                     <div class="carousel-item">
-                        <img src="foto3.jpg" class="d-block w-100" alt="Fotografía 3">
+                        <img src="./img/imag-perfil/galeria3.jpg" class="d-block w-100" alt="DuocUC de  Intercambio, Gyeongsang del Sur / Corea del Sur">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -103,17 +68,71 @@
                 </button>
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="profile-banner">
-                <img src="perfil.jpg" alt="Banner de perfil">
-                <div class="profile-avatar">
-                    <img src="avatar.jpg" alt="Foto de perfil">
-                    <h1>Nombre de Usuario</h1>
+        <section class="container">
+            <br>
+            <br>
+            <h2 class="items">Top 3 del perfil</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./img/imag-perfil/top1.jpg" class="card-img-top" alt="Mejor fotografía 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Inicio</h5>
+                            <p class="card-text">Sede San Bernardo. Camara Olympus EM1 Mk III.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./img/imag-perfil/top2.jpg" class="card-img-top" alt="Mejor fotografía 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Comics UC</h5>
+                            <p class="card-text">Sede Alameda. Camara Sony Cybershot</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./img/imag-perfil/top3.jpg" class="card-img-top" alt="Mejor fotografía 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Título de la mejor fotografía 3</h5>
+                            <p class="card-text">Sede Maipu. Camara Canon EOS R5.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>        
+            <br>
+            <br>
+            <h2 class="items">Última fotografía</h2>
+            <div class="card">
+                <img src="./img/imag-perfil/ultimafoto.jpg" class="card-img-top" alt="Última fotografía">
+                <div class="card-body">
+                    <h5 class="card-title">Vida en sede</h5>
+                    <p class="card-text">Sede Antonio Varas. Camara Sony A7III.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="banner">
+            <div class="bannerbg">
+                <div class="bannercontainer">
+                    <div class="bannerdata">
+                        <div class="bannertitle">Book de @Duocin</div>
+                        <a href="#" class="button">Contactame</a>
+                    </div>
+                    <figure >
+                        <img src="./img/imag-perfil/Perfil_ALPHA.png" alt="Banner" class="bannerimage" />
+                    </figure>
+                </div>
+            </div>
+        </div>
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>

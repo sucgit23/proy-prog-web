@@ -6,12 +6,6 @@ body {
     position: relative; */
 }
 
-/* header, footer {
-    background-color: black;
-    color: black;
-    text-align: center;
-    padding: 10px 0;
-} */
 
 main {
     background-color: black;
@@ -21,7 +15,7 @@ main {
 .publicar {
     color: aliceblue;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .publicar i{
@@ -35,7 +29,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    padding-top: 10px;
 }
 
 input[type="file"] {
@@ -46,20 +40,20 @@ input[type="file"] {
     /* color: transparent; */
 }
 
-/* textarea {
-
+textarea {
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 1000px ;
-    height: 100px ;
-    text-align: left; 
-}*/
+    width: 800px !important;
+    height: 100px !important;
+    object-fit: cover;
+}
 
 
 .comentariobox{
-    width: 150px;
-    height: 50px;
-    padding: 10px;;
+    max-width: 100% !important;
+    align-items: center;
+    background-size: cover;
+    display: flex;
 }
 
 
@@ -89,6 +83,7 @@ button {
     padding: 60px;
     text-align: center;
     cursor: pointer;
+    display: flex;
 }
 
 #imagePreview{

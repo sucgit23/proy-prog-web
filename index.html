@@ -7,10 +7,13 @@
     <title>Dobleexposicion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <audio autoplay id="radio-player" controls style="display: none;"></audio>
+
 
 </head>
 <body>
     
+    <!--Barra de navegacion-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
 
@@ -41,6 +44,18 @@
         <h1>DoblEƎxposicion</h1>
     </div>
 
+    <!--API RADIO-->
+    <div id="radio-controls">
+        <div class="botones" >
+            <button id="play-btn"><ion-icon name="play-outline"></ion-icon></i></button>
+            <button id="pause-btn"><ion-icon name="pause-circle-outline"></ion-icon></button>
+            <button id="next-btn"><ion-icon name="play-skip-forward-outline"></ion-icon></button>
+        </div>
+        <div class="nombre-estacion">
+            <marquee><span id="station-name">Nombre de la estación</span></marquee>
+        </div>
+    </div>
+    
     <!-- Boton y barra Busqueda -->
     <div class="buscador-barra">
             <div class="buscador">
@@ -56,6 +71,7 @@
             </div>
     </div>
 
+    <!--Fotografias estudiantes-->
     <div class="grid-container">
         <a href="./perfil.html"><img class="grid-item imagenes" src="./img/imag-perfil/top3.jpg" /></a>
         <a href="./perfil.html"><img class="grid-item imagenes" src="./img/imag-perfil/top2.jpg" /></a>
@@ -77,13 +93,12 @@
         <img class="grid-item imagenes" src="./img/imag-index/Duoc-Index9.jpg" />
         <img class="grid-item imagenes" src="./img/imag-index/Duoc-Index10.jpg" />
     </div>
-    
-    <footer>
-        
 
-    </footer>
     
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/apiradioindex.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

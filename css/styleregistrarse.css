@@ -141,3 +141,16 @@ button{
     width: 80px;
     height: auto;
 }
+
+#mensajeNombre{
+    margin-left: 100px;
+}
+
+#mensajeCorreo{
+    margin-left: 100px;/* Estilos para el mensaje de error del correo */
+}
+
+.mensajeClave {
+    padding-left: 100px;/* Estilos para el mensaje de error de la clave */
+}
+

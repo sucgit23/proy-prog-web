@@ -30,34 +30,61 @@
       <section>
         <div class="form-box">
           <div class="form-value">
-            <form>
-                <div>
+            <form id="ingresar">
+                <div class="logotipo">
                     <a href="./index.html" ><img src="./img/Dobleexposicioniconoblanco.png"></a>
                 </div>
+
+                <!--Casilla Email-->
               <h2>Ingresar</h2>
               <div class="inputbox">
                 <ion-icon name="mail-outline"> </ion-icon>
-                <input type="email" required />
-                <label>Email </label>
-                
+                <input type="email" id="correo" name="correo" required />
+                <label class="letra" for="correo" >Email </label>
               </div>
+
+              <div class="error-container">
+                <div id="correoError" class="error-message"></div>
+              </div>
+
+              <!--Casilla password-->
               <div class="inputbox">
                 <ion-icon name="lock-closed-outline"> </ion-icon>
-                <input type="password" required />
-                <label>Password</label>
+                <input type="password" id="clave" name="clave" required />
+                <label class="letra" for="clave" >Password</label>
               </div>
+
+              <div class="error-container">
+                <div id="claveError" class="error-message"></div>
+              </div>
+
+              <!--Casila revelar clave-->
+              <div class="form-group">
+                <input type="checkbox" id="view" name="view" value="ver"/>
+                <label class="letra" style="color: aliceblue;">Revelar Contraseña</label>
+              </div>
+
+              <!--Casilla recordar contrasena y olvide contrasena-->
               <div class="forget">
                 <label><input type="checkbox" />Recuerdame</label>
                 <a href="#">Olvidé la contraseña</a>
               </div>
+
+              <!--Boton Ingresar-->
               <button class="btn-modal">Ingresar</button>
               <div class="register">
                 <p>¿No tienes cuenta? <a href="#">Registrate ahora</a></p>
               </div>
+              
             </form>
           </div>
         </div>
       </section>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+      <script src="./js/login.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   </body>
 </html>

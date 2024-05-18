@@ -18,8 +18,8 @@ section{
 
 .form-box{
     position: relative;
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 500px;
     background: transparent;
     border: none;
     border-radius: 20px;
@@ -27,6 +27,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 h2{
@@ -51,14 +52,14 @@ h2{
     font-size: 1em;
     pointer-events: none;
     transition:  0.5s;
-
+    padding-bottom: 46px;
 }
 
-/*animations: start */
+/* animations: start
 input:focus~label,
 input:valid~label{
     top: -5px;
-}
+} */
 
 .inputbox input {
     width: 100%;
@@ -69,6 +70,7 @@ input:valid~label{
     font-size: 1em;
     padding: 0 35px 0 5px;
     color:#fff;
+
 }
 
 .inputbox ion-icon{
@@ -110,6 +112,7 @@ button{
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .register{
@@ -123,7 +126,6 @@ button{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-
 }
 
 .register p a:hover{
@@ -141,3 +143,28 @@ button{
     width: 80px;
     height: auto;
 }
+
+.form-group{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    display: flex;
+    
+}
+
+.form-group label input{
+    margin-right: 3px;
+}
+
+
+.logotipo{
+    padding-top: 100px;
+}
+
+#mensajeCorreo{
+    margin-left: 100px;/* Estilos para el mensaje de error del correo */
+}
+
+.mensajeClave {
+    padding-left: 100px;/* Estilos para el mensaje de error de la clave */
+}
+
